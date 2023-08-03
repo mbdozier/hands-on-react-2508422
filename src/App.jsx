@@ -13,7 +13,7 @@ function App() {
     setCast(await response.json());
   }
 
-  useEffect(() => {
+  useEffect(() => { 
     fetchCast();
   });
 
